@@ -409,7 +409,7 @@ h2 {
 
 @media screen and (max-width: 640px) {
   .header__nav {
-    top: 91px;
+    top: 65px;
     right: 10px;
   }
 }
@@ -756,7 +756,7 @@ h2 {
 }
 
 .tokenomics__inner {
-  background: url(../tok2.jpg), #59ee42dd;
+  background: url(../tok.jpg), #59ee42dd;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
