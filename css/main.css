@@ -717,6 +717,7 @@ h2 {
 
 .about__text {
   color: white;
+  -webkit-text-stroke: 1px black;
   font-size: 24px;
   line-height: 1.4;
 }
@@ -753,8 +754,7 @@ h2 {
 }
 
 .tokenomics__inner {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
-    url(../bg.png), #59ee42dd;
+  background: url(../tok.jpg), #59ee42dd;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
