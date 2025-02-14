@@ -531,7 +531,7 @@ h2 {
 }
 
 .hero__title {
-  font-size: 184px;
+  font-size: 3.5rem;
   color: #fff;
   text-shadow: #101228 7px 0px 0px, #101228 6.92869px 0.996602px 0px,
     #101228 6.71622px 1.9729px 0px, #101228 6.36692px 2.909px 0px,
@@ -567,7 +567,7 @@ h2 {
 .hero__text {
   margin: 24px;
   font-family: "Burger Free";
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: 400;
   -webkit-text-stroke: 2px #000; /* Black outline */
