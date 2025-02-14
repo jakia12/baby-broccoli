@@ -211,7 +211,7 @@ video {
   text-align: center;
   width: -moz-max-content;
   width: max-content;
-  background: #f6b93b;
+  background: #44bd32;
   border: 3px solid #101228;
   font-family: "Burger Free", system-ui;
   font-size: 24px;
@@ -221,7 +221,7 @@ video {
   border-radius: 999px;
   height: 74px;
   transition: background 100ms ease-in-out;
-  color: #101228;
+  color: #000;
   flex-shrink: 0;
 }
 
@@ -235,7 +235,7 @@ video {
 }
 
 .btn:hover {
-  background: #ffb580;
+  background: #4cd137;
 }
 
 .btn_icon {
@@ -256,7 +256,7 @@ video {
 
 h2 {
   font-size: 128px;
-  color: #f6b93b;
+  color: #4cd137;
   text-shadow: #101228 7px 0px 0px, #101228 6.92869px 0.996602px 0px,
     #101228 6.71622px 1.9729px 0px, #101228 6.36692px 2.909px 0px,
     #101228 5.8879px 3.78584px 0px, #101228 5.28893px 4.58555px 0px,
@@ -349,10 +349,10 @@ h2 {
 
 .header__nav {
   display: flex;
-  background: #f6b93b;
+  background: #44bd32;
   border: 3px solid #101228;
   box-shadow: 4px 9px 0px #101228;
-  color: #101228;
+  color: #fff;
   border-radius: 999px;
   overflow: hidden;
   font-size: 24px;
@@ -753,9 +753,14 @@ h2 {
 }
 
 .tokenomics__inner {
-  /*	background: url(../images/tokenomics-background.png) left top no-repeat, #ffe8ce;*/
-  background: #e58e26;
-  background-size: contain;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+    url(../bg.png), #59ee42dd;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  /* background: #4cd137; */
+  /* background-size: contain; */
   border: 6px solid #101228;
   border-radius: 36px;
   display: flex;
@@ -1010,7 +1015,8 @@ h2 {
 
 .footer {
   padding: 50px 0;
-  background: #feca57;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('../grass.png'), rgba(255, 238, 0, 0.371);
+  /* background: #f6b93b; */
 }
 
 .footer__container {
