@@ -499,6 +499,8 @@ h2 {
   gap: 60px;
   align-items: center;
   max-width: 1280px;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
 
 @media screen and (max-width: 1023.98px) {
@@ -754,7 +756,7 @@ h2 {
 }
 
 .tokenomics__inner {
-  background: url(../tok.jpg), #59ee42dd;
+  background: url(../tok2.jpg), #59ee42dd;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
